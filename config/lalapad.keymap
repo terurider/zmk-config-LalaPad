@@ -245,18 +245,18 @@
         MOUSE_R_LAYER {
             display-name = "mouse_r_layer";
             bindings = <
-&trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans     &trans     &trans     &trans     &trans
-&trans  &trans  &trans  &trans  &mkp LCLK    &trans  &trans  &mkp LCLK  &mkp LCLK  &mkp MCLK  &mkp RCLK  &mo SCROLL_R_LAYER
-&trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans     &mkp MB4   &mkp MB5   &trans     &trans
-&trans  &trans  &trans  &mo 5   &kp C_SLOW2  &trans  &trans  &trans     &trans     &trans     &trans     &trans
-                &trans  &trans  &trans       &trans  &trans  &trans     &trans     &trans
+&trans  &trans  &trans  &trans  &trans       &trans  &trans    &trans    &trans     &trans     &trans     &trans
+&trans  &trans  &trans  &trans  &mkp LCLK    &trans  &trans    &none     &mkp LCLK  &mkp MCLK  &mkp RCLK  &mo SCROLL_R_LAYER
+&trans  &trans  &trans  &trans  &trans       &trans  &mkp MB4  &mkp MB5  &mkp LCLK  &mkp RCLK  &mkp MCLK  &mo 5
+&trans  &trans  &trans  &mo 5   &kp C_SLOW2  &trans  &trans    &trans    &trans     &trans     &trans     &trans
+                &trans  &trans  &trans       &trans  &trans    &trans    &trans     &trans
             >;
         };
 
         SCROLL_R_LAYER {
             display-name = "scroll_r_layer";
             bindings = <
-&kp CARET  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &trans      &trans     &trans         &kp INT_YEN    &kp PLUS   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PERCENT  &trans
+&kp CARET  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp EXCL    &trans     &trans         &kp INT_YEN    &kp PLUS   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PERCENT  &trans
 &none      &kp AT_SIGN       &kp SLASH          &kp DOLLAR  &kp ASTRK  &trans         &kp HASH       &kp MINUS  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none        &trans
 &trans     &trans            &trans             &kp COLON   &trans     &kp BACKSLASH  &kp AMPERSAND  &kp EQUAL  &kp LESS_THAN         &kp GREATER_THAN       &none        &trans
 &trans     &trans            &trans             &trans      &trans     &trans         &trans         &trans     &trans                &trans                 &trans       &trans
