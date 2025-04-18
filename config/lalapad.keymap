@@ -187,16 +187,6 @@
             bindings = <&kp LS(TAB)>;
             key-positions = <1 2 3>;
         };
-
-        LCLK {
-            bindings = <&mkp LCLK>;
-            key-positions = <33 32>;
-        };
-
-        RCLK {
-            bindings = <&mkp RCLK>;
-            key-positions = <32 33 34>;
-        };
     };
 
     keymap {
