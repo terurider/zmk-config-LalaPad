@@ -272,8 +272,6 @@
 &trans     &trans            &trans             &trans           &trans     &trans         &trans         &trans     &trans                &trans                 &trans       &trans
                              &trans             &trans           &trans     &trans         &trans         &trans     &trans                &trans
             >;
-
-            sensor-bindings = <&scroll_left_right>;
         };
 
         MOUSE_L_LAYER {
