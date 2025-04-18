@@ -237,8 +237,6 @@
 &trans  &trans   &trans             &trans   &trans            &trans   &trans     &trans        &trans         &trans         &trans      &trans
                  &kp LG(LS(RIGHT))  &trans   &kp LS(LG(LEFT))  &trans   &trans     &trans        &trans         &trans
             >;
-
-            sensor-bindings = <&scroll_up_down>, <&scroll_left_right>;
         };
 
         SYSTEM_LAYER {
