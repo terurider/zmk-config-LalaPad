@@ -197,11 +197,6 @@
             bindings = <&mkp RCLK>;
             key-positions = <32 33 34>;
         };
-
-        MCLK {
-            bindings = <&mkp MCLK>;
-            key-positions = <32 33 34 35>;
-        };
     };
 
     keymap {
