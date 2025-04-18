@@ -223,11 +223,11 @@
             sensor-bindings = <&scroll_down_up>, <&scroll_up_down>;
 
             bindings = <
-&kp ESC       &kp Q                &kp W              &kp E        &kp R             &kp T                     &kp Y                   &kp U          &kp I            &kp O       &kp P                     &kp ESC
-&kp LEFT_WIN  &mt3 LEFT_SHIFT A    &kp S              &kp D        &kp F             &kp G                     &kp H                   &kp J          &kp K            &kp L       &mt2 RSHIFT COLON         &kp LEFT_WIN
-&kp LEFT_ALT  &mt3 LEFT_CONTROL Z  &kp X              &kp C        &kp V             &kp B                     &kp N                   &kp M          &kp COMMA        &kp PERIOD  &mt2 RIGHT_CONTROL MINUS  &kp RIGHT_ALT
-&mo 5         &none                &none              &lt 1 SPACE  &mo 5             &lt TERTIARY_LAYER LANG2  &lt SYSTEM_LAYER LANG1  &kp BACKSPACE  &lt 2 ENTER      &none       &none                     &mo 4
-                                   &kp LC(LG(RIGHT))  &kp LC(C)    &kp LG(LC(LEFT))  &kp LC(V)                 &allow_pageup           &allow_home    &allow_pagedown  &allow_end
+&kp ESC       &kp Q  &kp W              &kp E        &kp R             &kp T                     &kp Y                   &kp U          &kp I            &kp O       &kp P                     &kp ESC
+&kp LEFT_WIN  &kp A  &kp S              &kp D        &kp F             &kp G                     &kp H                   &kp J          &kp K            &kp L       &mt2 RSHIFT COLON         &kp LEFT_WIN
+&kp LEFT_ALT  &kp Z  &kp X              &kp C        &kp V             &kp B                     &kp N                   &kp M          &kp COMMA        &kp PERIOD  &mt2 RIGHT_CONTROL MINUS  &kp RIGHT_ALT
+&mo 5         &none  &none              &lt 1 SPACE  &mo 5             &lt TERTIARY_LAYER LANG2  &lt SYSTEM_LAYER LANG1  &kp BACKSPACE  &lt 2 ENTER      &none       &none                     &mo 4
+                     &kp LC(LG(RIGHT))  &kp LC(C)    &kp LG(LC(LEFT))  &kp LC(V)                 &allow_pageup           &allow_home    &allow_pagedown  &allow_end
             >;
         };
 
