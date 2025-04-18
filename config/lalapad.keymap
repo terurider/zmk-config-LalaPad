@@ -174,15 +174,15 @@
             bindings = <&kp>, <&kp>;
         };
 
-        mt3: mot_tap3 {
+        mt3: mod_tap3 {
             compatible = "zmk,behavior-hold-tap";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <400>;
             flavor = "tap-preferred";
-            quick-tap-ms = <(-1)>;
-            require-prior-idle-ms = <(-1)>;
+            quick-tap-ms = <(-2)>;
+            require-prior-idle-ms = <(-2)>;
         };
     };
 
