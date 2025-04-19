@@ -221,23 +221,25 @@
             sensor-bindings = <&scroll_left_right>, <&scroll_left_right>;
 
             bindings = <
-&kp TILDE  &kp NUMBER_1  &kp F7  &kp F8  &kp F9  &kp F12   &kp N7  &kp N8      &kp N9  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9
-&trans     &kp NUMBER_6  &kp F4  &kp F5  &kp F6  &kp F11   &kp N4  &kp N5      &kp N6  &kp KP_NUMBER_4  &kp COLON        &kp KP_NUMBER_6
-&trans     &trans        &kp F1  &kp F2  &kp F3  &kp F10   &kp N1  &kp N2      &kp N3  &kp DOT          &kp SLASH        &kp KP_NUMBER_3
-&trans     &trans        &trans  &trans  &trans  &kp CAPS  &trans  &kp DELETE  &kp N0  &kp KP_NUMBER_0  &dot_comma       &kp KP_ENTER
-                         &trans  &trans  &trans  &trans    &trans  &trans      &trans  &trans
+&kp TILDE  &trans  &kp F7  &kp F8  &kp F9  &kp F12   &kp N7  &kp N8         &kp N9  &trans   &trans     &trans
+&trans     &trans  &kp F4  &kp F5  &kp F6  &kp F11   &kp N4  &kp N5         &kp N6  &trans   &kp COLON  &trans
+&trans     &trans  &kp F1  &kp F2  &kp F3  &kp F10   &kp N1  &kp N2         &kp N3  &kp DOT  &kp SLASH  &trans
+&trans     &trans  &trans  &trans  &trans  &kp CAPS  &trans  &kp BACKSPACE  &kp N0  &trans   &trans     &trans
+                   &trans  &trans  &trans  &trans    &trans  &trans         &trans  &trans
             >;
         };
 
         TERTIARY_LAYER {
             display-name = "tertiary_layer";
             bindings = <
-&trans  &kp F1   &kp F2             &kp F3   &kp F4            &kp F5   &trans     &kp LA(LEFT)  &kp UP         &kp LA(RIGHT)  &kp DELETE  &kp C_BRI_UP
-&trans  &kp F6   &kp F7             &kp F8   &kp F9            &kp F10  &kp ENTER  &kp LEFT      &kp DOWN       &kp RIGHT      &trans      &kp C_BRI_DN
-&trans  &kp F11  &kp F12            &kp F13  &kp F14           &kp F15  &trans     &kp PAGE_UP   &kp PAGE_DOWN  &kp HOME       &kp END     &trans
-&trans  &trans   &trans             &trans   &trans            &trans   &trans     &trans        &trans         &trans         &trans      &trans
-                 &kp LG(LS(RIGHT))  &trans   &kp LS(LG(LEFT))  &trans   &trans     &trans        &trans         &trans
+&trans  &trans  &trans             &trans  &trans            &trans  &trans     &kp LA(LEFT)  &kp UP         &kp LA(RIGHT)  &trans   &kp C_BRI_UP
+&trans  &trans  &trans             &trans  &trans            &trans  &kp ENTER  &kp LEFT      &kp DOWN       &kp RIGHT      &trans   &kp C_BRI_DN
+&trans  &trans  &trans             &trans  &trans            &trans  &trans     &kp PAGE_UP   &kp PAGE_DOWN  &kp HOME       &kp END  &trans
+&trans  &trans  &trans             &trans  &trans            &trans  &trans     &trans        &trans         &trans         &trans   &trans
+                &kp LG(LS(RIGHT))  &trans  &kp LS(LG(LEFT))  &trans  &trans     &trans        &trans         &trans
             >;
+
+            sensor-bindings = <&scroll_left_right>, <&scroll_left_right>;
         };
 
         SYSTEM_LAYER {
@@ -258,7 +260,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans       &trans  &trans    &trans    &trans     &trans     &trans     &trans
 &trans  &trans  &trans  &trans  &mkp LCLK    &trans  &trans    &none     &mkp LCLK  &mkp MCLK  &mkp RCLK  &mo SCROLL_R_LAYER
-&trans  &trans  &trans  &trans  &trans       &trans  &mkp MB4  &mkp MB5  &none      &none      &none      &mo 5
+&trans  &trans  &trans  &trans  &trans       &trans  &mkp MB4  &mkp MB5  &mkp LCLK  &mkp RCLK  &mkp MCLK  &mo 5
 &trans  &trans  &trans  &mo 5   &kp C_SLOW2  &trans  &trans    &trans    &trans     &trans     &trans     &trans
                 &trans  &trans  &trans       &trans  &trans    &trans    &trans     &trans
             >;
@@ -268,7 +270,7 @@
             display-name = "scroll_r_layer";
             bindings = <
 &kp CARET  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp EXCLAMATION  &trans     &trans         &kp INT_YEN    &kp PLUS   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PERCENT  &trans
-&none      &kp AT_SIGN       &kp SLASH          &kp DOLLAR       &kp ASTRK  &trans         &kp HASH       &kp MINUS  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none        &trans
+&none      &kp AT_SIGN       &kp SLASH          &kp DOLLAR       &kp ASTRK  &kp CARET      &kp HASH       &kp MINUS  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none        &trans
 &trans     &trans            &trans             &kp COLON        &trans     &kp BACKSLASH  &kp AMPERSAND  &kp EQUAL  &kp LESS_THAN         &kp GREATER_THAN       &none        &trans
 &trans     &trans            &trans             &trans           &trans     &trans         &trans         &trans     &trans                &trans                 &trans       &trans
                              &trans             &trans           &trans     &trans         &trans         &trans     &trans                &trans
