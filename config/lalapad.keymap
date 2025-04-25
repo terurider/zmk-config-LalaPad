@@ -221,11 +221,11 @@
             sensor-bindings = <&scroll_left_right>, <&scroll_left_right>;
 
             bindings = <
-&kp TILDE  &trans  &kp F7  &kp F8  &kp F9  &kp F12   &kp N7  &kp N8         &kp N9  &trans   &trans     &trans
-&trans     &trans  &kp F4  &kp F5  &kp F6  &kp F11   &kp N4  &kp N5         &kp N6  &trans   &kp COLON  &trans
-&trans     &trans  &kp F1  &kp F2  &kp F3  &kp F10   &kp N1  &kp N2         &kp N3  &kp DOT  &kp SLASH  &trans
-&trans     &trans  &trans  &trans  &trans  &kp CAPS  &trans  &kp BACKSPACE  &kp N0  &trans   &trans     &trans
-                   &trans  &trans  &trans  &trans    &trans  &trans         &trans  &trans
+&kp TILDE     &trans  &kp F7  &kp F8  &kp F9  &kp F12  &kp N7  &kp N8         &kp N9  &trans   &trans     &trans
+&kp LEFT_WIN  &trans  &kp F4  &kp F5  &kp F6  &kp F11  &kp N4  &kp N5         &kp N6  &trans   &kp COLON  &kp RIGHT_WIN
+&kp LEFT_ALT  &trans  &kp F1  &kp F2  &kp F3  &kp F10  &kp N1  &kp N2         &kp N3  &kp DOT  &kp SLASH  &kp RIGHT_ALT
+&trans        &trans  &trans  &trans  &trans  &trans   &trans  &kp BACKSPACE  &kp N0  &trans   &trans     &trans
+                      &trans  &trans  &trans  &trans   &trans  &trans         &trans  &trans
             >;
         };
 
@@ -258,22 +258,22 @@
         MOUSE_R_LAYER {
             display-name = "mouse_r_layer";
             bindings = <
-&trans  &trans  &trans  &trans  &trans       &trans  &trans    &trans    &trans     &trans     &trans     &trans
-&trans  &trans  &trans  &trans  &mkp LCLK    &trans  &trans    &none     &mkp LCLK  &mkp MCLK  &mkp RCLK  &mo SCROLL_R_LAYER
-&trans  &trans  &trans  &trans  &trans       &trans  &mkp MB4  &mkp MB5  &mkp LCLK  &mkp RCLK  &mkp MCLK  &mo 5
-&trans  &trans  &trans  &mo 5   &kp C_SLOW2  &trans  &trans    &trans    &trans     &trans     &trans     &trans
-                &trans  &trans  &trans       &trans  &trans    &trans    &trans     &trans
+&trans        &trans  &trans  &trans  &trans       &trans  &trans    &trans    &trans     &trans     &trans     &trans
+&kp LEFT_WIN  &trans  &trans  &trans  &mkp LCLK    &trans  &trans    &none     &mkp LCLK  &mkp MCLK  &mkp RCLK  &kp RIGHT_WIN
+&kp LEFT_ALT  &trans  &trans  &trans  &trans       &trans  &mkp MB4  &mkp MB5  &mkp LCLK  &mkp RCLK  &mkp MCLK  &kp RIGHT_ALT
+&trans        &trans  &trans  &mo 5   &kp C_SLOW2  &trans  &trans    &trans    &trans     &trans     &trans     &trans
+                      &trans  &trans  &trans       &trans  &trans    &trans    &trans     &trans
             >;
         };
 
         SCROLL_R_LAYER {
             display-name = "scroll_r_layer";
             bindings = <
-&kp CARET  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp EXCLAMATION  &trans     &trans         &kp INT_YEN    &kp PLUS   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PERCENT  &trans
-&none      &kp AT_SIGN       &kp SLASH          &kp DOLLAR       &kp ASTRK  &kp CARET      &kp HASH       &kp MINUS  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none        &trans
-&trans     &trans            &trans             &kp COLON        &trans     &kp BACKSLASH  &kp AMPERSAND  &kp EQUAL  &kp LESS_THAN         &kp GREATER_THAN       &none        &trans
-&trans     &trans            &trans             &trans           &trans     &trans         &trans         &trans     &trans                &trans                 &trans       &trans
-                             &trans             &trans           &trans     &trans         &trans         &trans     &trans                &trans
+&kp CARET  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp EXCL    &trans     &trans         &kp INT_YEN    &kp PLUS   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PERCENT  &trans
+&none      &kp AT_SIGN       &kp SLASH          &kp DOLLAR  &kp ASTRK  &kp CARET      &kp HASH       &kp MINUS  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none        &trans
+&trans     &trans            &trans             &kp COLON   &trans     &kp BACKSLASH  &kp AMPERSAND  &kp EQUAL  &kp LESS_THAN         &kp GREATER_THAN       &none        &trans
+&trans     &trans            &trans             &trans      &trans     &trans         &trans         &trans     &trans                &trans                 &trans       &trans
+                             &trans             &trans      &trans     &trans         &trans         &trans     &trans                &trans
             >;
         };
 
