@@ -208,6 +208,11 @@
             bindings = <&mkp RCLK>;
             key-positions = <32 33 34>;
         };
+
+        clickM {
+            bindings = <&mkp MCLK>;
+            key-positions = <35 34 33 32>;
+        };
     };
 
     keymap {
