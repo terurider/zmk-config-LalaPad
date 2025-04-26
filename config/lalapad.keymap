@@ -203,6 +203,11 @@
             bindings = <&mkp LCLK>;
             key-positions = <32 33>;
         };
+
+        clickR {
+            bindings = <&mkp RCLK>;
+            key-positions = <32 33 34>;
+        };
     };
 
     keymap {
