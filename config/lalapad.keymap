@@ -198,6 +198,11 @@
             bindings = <&kp LS(TAB)>;
             key-positions = <1 2 3>;
         };
+
+        click {
+            bindings = <&mkp LCLK>;
+            key-positions = <32 33>;
+        };
     };
 
     keymap {
