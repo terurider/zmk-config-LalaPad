@@ -211,7 +211,7 @@
 
         cmb_clickM {
             bindings = <&mkp MCLK>;
-            key-positions = <35 34 33 32>;
+            key-positions = <34 33 32 21>;
         };
     };
 
@@ -290,6 +290,8 @@
 &trans     &trans            &trans             &trans      &trans     &trans         &trans         &trans     &trans                &trans                 &trans       &trans
                              &trans             &trans      &trans     &trans         &trans         &trans     &trans                &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp LC(PLUS) LC(MINUS)>;
         };
 
         MOUSE_L_LAYER {
