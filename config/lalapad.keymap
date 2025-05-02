@@ -247,7 +247,7 @@
         TERTIARY_LAYER {
             display-name = "tertiary_layer";
             bindings = <
-&trans  &trans  &trans             &trans  &trans            &trans  &trans     &kp LA(LEFT)  &kp UP         &kp LA(RIGHT)  &trans   &kp C_BRI_UP
+&trans  &trans  &trans             &trans  &trans            &trans  &trans     &kp LA(LEFT)  &kp UP         &kp LA(RIGHT)  &kp DEL  &kp C_BRI_UP
 &trans  &trans  &trans             &trans  &trans            &trans  &kp ENTER  &kp LEFT      &kp DOWN       &kp RIGHT      &trans   &kp C_BRI_DN
 &trans  &trans  &trans             &trans  &trans            &trans  &trans     &kp PAGE_UP   &kp PAGE_DOWN  &kp HOME       &kp END  &trans
 &trans  &trans  &trans             &trans  &trans            &trans  &trans     &trans        &trans         &trans         &trans   &trans
