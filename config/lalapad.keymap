@@ -291,7 +291,7 @@
                              &trans             &trans      &trans     &trans         &trans         &trans     &trans                &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(PLUS) LC(MINUS)>;
+            sensor-bindings = <&inc_dec_kp LC(KP_PLUS) LC(KP_MINUS)>;
         };
 
         MOUSE_L_LAYER {
