@@ -213,6 +213,11 @@
             bindings = <&kp LS(TAB)>;
             key-positions = <3 2 4>;
         };
+
+        cmb_clickL2 {
+            bindings = <&mkp LCLK>;
+            key-positions = <16 15>;
+        };
     };
 
     keymap {
